@@ -35,6 +35,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "location"
     t.string "theme"
+    t.integer "price"
+    t.boolean "friendly"
   end
 
 end
